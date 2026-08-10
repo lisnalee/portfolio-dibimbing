@@ -1,198 +1,151 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>XpandSkill | Expand your skill</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Lisna Lee — UI/UX Designer & Product Thinker">
+  <title>Lisna Lee — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- HEADER -->
-    <header class="header">
-        <div class="header-container">
-            <div class="logo"> <img src="images/XPandSkill.png" alt="xpand skill logo"></div>
+
+<header class="header">
+  <a class="logo" href="#">LL<span>.</span></a>
+  <nav class="nav">
+    <a class="active" href="#about">About</a>
+    <a href="#work">Work</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main>
+  <section class="hero" id="about">
+    <div class="hero-content">
+      <p class="eyebrow">UI/UX DESIGNER &amp; PRODUCT THINKER</p>
+      <h1>Hi, I’m <em>Lisna Lee.</em></h1>
+      <p class="hero-description">
+        Creative Designer based in Jakarta, Indonesia, specializing in Graphic Design, UI/UX, and Product Management. Currently working at an AI SaaS company in Singapore.
+      </p>
+
+      <div class="hero-details">
+        <div class="detail">
+          
+          <div>
+            <span>Based in</span>
+            <strong>Jakarta, Indonesia</strong>
+          </div>
+        </div>
+        <div class="detail divider">
+          
+          <div>
+            <span>Contact information</span>
+            <strong>lisnaleedesign@gmail.com</strong>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="portrait-wrap">
+      <div class="portrait">
+        <img src="images/lisna.jpeg" alt="Lisna Lee">
+      </div>
+    </div>
+  </section>
+
+  <section class="work" id="work">
+    <div class="work-heading">
+      <div>
+        <p class="eyebrow">SELECTED WORK</p>
+        <h2>Recent Projects</h2>
+      </div>
+     
+    </div>
+
+    <article class="project">
+     <div class="project-visual">
+       <img src="images/XpandSkill - Website.png" alt="BCX Studio POS Redesign">
+    </div>
+
+      <div class="project-copy">
+        <span class="number">01</span>
+        <h3>LMS Website Design</h3>
+        <p>
+          A mini project for Dibimbing Bootcamp.
+        </p>
         
-        <div class="nav">
-            <a href="index.html">Home</a>
-            <a href="courses.html">Courses</a>
-            <a href="blog.html">Blog</a>
-            <a href="contact.html">Contact</a>
-        </div>
-        <button class="primary-button"> Sign Up </button>
-        </div>
-    </header>
-    <!-- HERO -->
-     <section class="hero">
-        <div class="hero-text">
-            <span class="tag">Certified Skills</span>
-            <h1 id="heroTitle">Xpand Your Skills. <br> Master Your Future</h1>
-            <p>Unlock unlimited learning from thousands of courses taught by industry experts. Flexible, accessible, and designed for growth.</p>
-            <button class="primary-button" id="ctaBtn">Find Courses</button>
-        </div>
-        <div class="hero-image">
-            <img src="images/xpandskill-herobanner.png" alt="Online learning with EduLiz">
-        </div>
-     </section>
-     <!-- CATEGORY -->
-     <section class="category">
-        <div class="category-list">
-            <div class="category-item">
-                <img src="images/icons/monitor.png" alt="web development">
-                <h2>Development</h2>
-                <p>Build the digital future with code.</p>
-            </div>
-            <div class="category-item">
-                <img src="images/icons/data.png" alt="web development">
-                <h2>Development</h2>
-                <p>Turn raw data into powerful insights.</p>
-            </div>
-            <div class="category-item">
-                <img src="images/icons/paint.png" alt="web development">
-                <h2>Design & Art</h2>
-                <P>Shape experiences through visual storytelling.</P>
-            </div>
-            <div class="category-item">
-                <img src="images/icons/megaphone.png" alt="web development">
-                <h2>Marketing</h2>
-                <p>Grow brands and reach global audiences.</p>
-            </div>
-            <div class="category-item">
-                <img src="images/icons/leadership.png" alt="web development">
-                <h2>Leadership</h2>
-                <P>Lead teams and scale modern businesses.</P>
-            </div>
-            
-        </div>
+        <a class="case-study" href="#">View case study <b>↗</b></a>
+      </div>
+    </article>
 
-     </section>
-      <!-- COURSES -->
-       <section class="courses" id="productList">
-         <h2>Discover Popular Courses</h2>
-      
-    <div class="course-gallery">
-      <div class="course"> 
-        <img class="course-thumbnail" src="images/small-vecteezy_laptop-mockup-with-a-coding-theme-perfect-for-ware_48635474_small.jpg" alt="Frontend Course">
-        <h3 class="course-title">Python for Beginners</h3>
-        <p class="intsructor">Pythom Ramer</p>
-        <div class="rating">
-      <span class="stars">★★★★☆</span>
-      <span class="rating-number">4.0</span>
+    <article class="project">
+     <div class="project-visual">
+       <img src="images/XpandSkill - Website.png" alt="BCX Studio POS Redesign">
     </div>
-        <p class="course-price"> IDR 499.000 </p>
-        <button class="add-to-cart"> Buy Now </button>
-      </div>
-      <div class="course"> 
-        <img class="course-thumbnail" src="images/small-vecteezy_close-up-ux-developer-and-ui-designer-use-augmented-reality_42645439_small.jpg" alt="Frontend Course">
-        <h3 class="course-title">Advanced UX Design</h3>
-        <p class="intsructor">Retansin Samer</p>
-        <div class="rating">
-      <span class="stars">★★★★☆</span>
-      <span class="rating-number">4.0</span>
-    </div>
-        <p class="course-price"> IDR 299.000 </p>
-        <button class="add-to-cart"> Buy Now </button>
-      </div>
-      <div class="course"> 
-        <img class="course-thumbnail" src="images/small-vecteezy_businessman-work-with-ai-for-economy-analysis-financial_5233307_small.jpg" alt="Frontend Course">
-        <h3 class="course-title">Global Economics</h3>
-        <p class="intsructor">Global Economics</p>
-        <div class="rating">
-      <span class="stars">★★★★☆</span>
-      <span class="rating-number">4.0</span>
-    </div>
-        <p class="course-price"> IDR 199.000 </p>
-        <button class="add-to-cart"> Buy Now </button>
-      </div>
-      <div class="course"> 
-        <img class="course-thumbnail" src="images/small-vecteezy_ai-generated-graphic-designer-immersed-in-creative-process_40724492_small.jpg" alt="Frontend Course">
-        <h3 class="course-title">Graphic Design Masterclass</h3>
-        <p class="intsructor">Graphic Design Masterclass</p>
-        <div class="rating">
-      <span class="stars">★★★★☆</span>
-      <span class="rating-number">4.0</span>
-    </div>
-        <p class="course-price"> IDR 399.000 </p>
-        <button class="add-to-cart"> Buy Now </button>
-      </div>
-      <div class="course"> 
-        <img class="course-thumbnail" src="images/small-vecteezy_software-development-concepts-and-programming-for-various_20687046_small.jpg" alt="Frontend Course">
-        <h3 class="course-title">Python for Beginners</h3>
-        <p class="intsructor">Pythom Ramer</p>
-        <div class="rating">
-      <span class="stars">★★★★☆</span>
-      <span class="rating-number">4.0</span>
-    </div>
-        <p class="course-price"> IDR 499.000 </p>
-        <button class="add-to-cart"> Buy Now </button>
-      </div>
-      <div class="course"> 
-        <img class="course-thumbnail" src="images/small-vecteezy_interior-designer-working-on-project-with-blueprints-and-laptop_79089009_small.jpg" alt="Frontend Course">
-        <h3 class="course-title">Python for Beginners</h3>
-        <p class="intsructor">Pythom Ramer</p>
-        <div class="rating">
-      <span class="stars">★★★★☆</span>
-      <span class="rating-number">4.0</span>
-    </div>
-        <p class="course-price"> IDR 499.000 </p>
-        <button class="add-to-cart"> Buy Now </button>
-      </div>
-      <div class="course"> 
-        <img class="course-thumbnail" src="images/small-vecteezy_business-woman-using-calculator-for-do-math-finance-on_25556216_small.jpg" alt="Frontend Course">
-        <h3 class="course-title">Python for Beginners</h3>
-        <p class="intsructor">Pythom Ramer</p>
-        <div class="rating">
-      <span class="stars">★★★★☆</span>
-      <span class="rating-number">4.0</span>
-    </div>
-        <p class="course-price"> IDR 499.000 </p>
-        <button class="add-to-cart"> Buy Now </button>
-      </div>
-      <div class="course"> 
-        <img class="course-thumbnail" src="images/small-vecteezy_young-creative-designer-working-on-graphic-design-projects_51345401_small.jpg" alt="Frontend Course">
-        <h3 class="course-title">Python for Beginners</h3>
-        <p class="intsructor">Pythom Ramer</p>
-        <div class="rating">
-      <span class="stars">★★★★☆</span>
-      <span class="rating-number">4.0</span>
-    </div>
-        <p class="course-price"> IDR 499.000 </p>
-        <button class="add-to-cart"> Buy Now </button>
-      </div>
-    </div>
-      
-       </section>
 
-     <!-- FEATURES -->
-     <section class="features">
-        <h2>Why Choose XpandSkill?</h2>
-        <ul class="feature-list">
-            <li class="feature">
-                <img src="images/icons/teacher.png">
-                <h3>Expert Trainer</h3>
-                <p>Create connections and expert mentors</p>
-            </li>
-            <li class="feature">
-                <img src="images/icons/time.png">
-                <h3>Lifetime Access</h3>
-                <p>Certificates to online learning and lifetime access</p>
-            </li>
-            <li class="feature">
-                <img src="images/icons/certificate.png">
-                <h3>Online Certificate</h3>
-                <p>Gained credentials and certified skills</p>
-            </li>
-             <li class="feature">
-                <img src="images/icons/online-learning.png">
-                <h3>Quality Courses</h3>
-                <p>Curated high demand top courses</p>
-            </li>
+      <div class="project-copy">
+        <span class="number">02</span>
+        <h3>BCX Studio POS Redesign</h3>
+        <p>
+          Redesigned the POS interface for an F&amp;B business to improve
+          usability and operational efficiency. Focused on streamlining
+          workflows, order management, and shift reporting.
+        </p>
+        
+        <a class="case-study" href="#">View case study <b>↗</b></a>
+      </div>
+    </article>
 
-        </ul>
-      </section>
-       <!-- FEATURES -->
-        <section class="footer">
-            <p> © 2026 XpandSkill </p>
-        </section>
-    <script src="script.js"></script>
+    <article class="project">
+       <div class="project-visual">
+       <img src="images/XpandSkill - Website.png" alt="BCX Studio POS Redesign">
+    </div>
+
+      <div class="project-copy">
+        <span class="number">03</span>
+        <h3>Loyalty &amp; Marketing Platform</h3>
+        <p>
+          Designed features for a loyalty and marketing platform including
+          stamp cards, vouchers, subscriptions, and marketing automation
+          to help businesses increase customer retention.
+        </p>
+        
+        <a class="case-study" href="#">View case study <b>↗</b></a>
+      </div>
+    </article>
+  </section>
+
+  <section class="skills" id="skills">
+    <p class="eyebrow">SKILLS</p>
+    <div class="skill-grid">
+      <span>UI/UX Design</span>
+      <span>Product Design</span>
+      <span>Graphic Design</span>
+      <span>Wireframing</span>
+      <span>Prototyping</span>
+      <span>Product Management</span>
+      <span>FE</span>
+    </div>
+  </section>
+</main>
+
+<footer id="contact">
+  <div class="footer-cta">
+    <div class="send-icon">↗</div>
+    <div>
+      <h2>Let’s work together!</h2>
+      <p>I’m always open to discussing new projects<br>and exciting opportunities.</p>
+    </div>
+  </div>
+
+  <div class="contact-list">
+    <a href="mailto:lisnaleedesign@gmail.com">✉ &nbsp; lisnaleedesign@gmail.com</a>
+    <a href="https://www.linkedin.com/in/lisnalee/">in &nbsp; linkedin.com/in/lisnalee</a>
+  </div>
+</footer>
+
 </body>
 </html>
